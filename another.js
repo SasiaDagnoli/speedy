@@ -6,4 +6,12 @@ var Module = (function() {
 
   return Module
 }());
+
+var Animal = (function() {
+  function Animal(){}
+
+  Animal.prototype = {};
+
+  return Animal
+}());
 }());
